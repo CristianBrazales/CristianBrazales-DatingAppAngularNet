@@ -1,0 +1,8 @@
+#DOTNET EF for managing migrations on the database and create schemas from the ORM
+dotnet ef migrations add InitialCreate -o Data/Migrations
+UPDATE: PI> dotnet ef database update
+#RUN BACKEND
+ dotnet watch run
+
+#CREATE AN APPLICATION:  dotnet new  webapi -o API
+#CREATE A SOLUTION FILE  dotnet new sln
